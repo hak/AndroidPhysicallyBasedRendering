@@ -6,7 +6,7 @@ Instead of a traditional material based rendering pipeline (e.g. base, specular 
 
 In Mobile gaming space, PBR is not popular yet due to limited HW performance/features, however high-end devices such as TegraK1, Adreno330 are capable of PBR in terms of feature set (, still not fully ready in performance though). As they are getting more popular, Mobile games will also adopt PBR in near future.
 
-PBR in a nutshell:
+#PBR in a nutshell
 - Energy conserving
 Input light energy >= Output energy.
 In pictures below, note that a specular intensity increases as a specular power increase
@@ -24,13 +24,13 @@ Pictures below: They are all specular but with different 'roughness' value
 <img src="./SampleImages/Image1.png" alt="alt text" width="320">
 <img src="./SampleImages/Image2.png" alt="alt text" width="320">
 
-DEMO:
+#Demo
 - Demo uses 1 irradiance environment map (fetched both diffuse,specular), 1 direction light.
 - Lambart diffuse, Phong specular + Schlick fresnel
 - All images above are rendered in single PBR shader.
 - Requires OpenGL ES3.0 (details below)
 
-Implementation details:
+#Implementation details
 - Requires OpenGLES3.0
 Most of existing PBR implementations require CubeMapLod (EXT_shader_texture_lod),
 but many of Android devices don't support the feature unfortunately.
