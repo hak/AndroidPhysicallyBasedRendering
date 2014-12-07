@@ -15,6 +15,7 @@ In pictures below, note that a specular intensity increases as a specular power 
 <img src="./SampleImages/Image5.png" alt="alt text" width="320">
 
 - Fresnel for everything (including non-conductor)
+
 <img src="./SampleImages/Image3.png" alt="alt text" width="320">
 
 - Metalic material == Specular only
