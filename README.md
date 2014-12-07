@@ -20,6 +20,7 @@ In pictures below, note that a specular intensity increases as a specular power 
 
 - Metalic material == Specular only
 Pictures below: They are all specular but with different 'roughness' value
+
 <img src="./SampleImages/Image1.png" alt="alt text" width="320">
 <img src="./SampleImages/Image2.png" alt="alt text" width="320">
 
