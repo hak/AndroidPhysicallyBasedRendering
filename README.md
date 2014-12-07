@@ -11,14 +11,16 @@ PBR in a nutshell:
 Input light energy >= Output energy.
 In pictures below, note that a specular intensity increases as a specular power increase
 
-Inline image 2Inline image 3
+<img src="./SampleImages/Image4.png" alt="alt text" width="320">
+<img src="./SampleImages/Image5.png" alt="alt text" width="320">
 
 - Fresnel for everything (including non-conductor)
-Inline image 4
+<img src="./SampleImages/Image3.png" alt="alt text" width="320">
 
 - Metalic material == Specular only
 Pictures below: They are all specular but with different 'roughness' value
-Inline image 5Inline image 6
+<img src="./SampleImages/Image1.png" alt="alt text" width="320">
+<img src="./SampleImages/Image2.png" alt="alt text" width="320">
 
 DEMO:
 - Demo uses 1 irradiance environment map (fetched both diffuse,specular), 1 direction light.
